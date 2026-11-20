@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    database: EAT_AND_GO
+    schema: RAW
+
+    tables:
+      - name: deliveries_raw
+      - name: customers_raw
+      - name: orders_raw
+      - name: order_items_raw
+      - name: products_raw
+      - name: stores_raw
